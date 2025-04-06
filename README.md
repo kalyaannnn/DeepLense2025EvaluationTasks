@@ -95,18 +95,18 @@
 
 #### Architecture
 
-- **MAE**: Encoder with residual blocks, 75% patch masking, decoder with transposed convolutions.
+- **MAE**: Encoder with residual blocks, 85% patch masking, decoder with transposed convolutions.
 - **Classifier**: MAE encoder, GAP, fully connected layer.
 - **SR Model**: MAE encoder layers, transposed convolutions.
 
 #### Results
 
-- **MAE Loss**: 0.0619 to 0.0574.
-- **Classifier Loss**: 0.0986 to 0.0000.
+- **MAE Loss**: 0.06289 to 0.0574.
+- **Classifier Loss**: Average AUC - 0.9430
 - **SR Metrics**: MSE: 0.0001, PSNR: 38.28 dB, SSIM: 0.9439.
 
 **Visuals**:
-- ![Task6A](https://github.com/user-attachments/assets/b9cf0a35-994e-451a-bf36-f70e459eb53a)
+- ![Task6A](![6ARESULTS](https://github.com/user-attachments/assets/409321db-5bcf-4c74-91c3-d626f0eb3f70)
 - ![Task6B](https://github.com/user-attachments/assets/acc43dda-e1a8-43cd-be38-55af69f9a24d)
 
 ---
